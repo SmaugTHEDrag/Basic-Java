@@ -52,6 +52,30 @@ public class all_string {
 			  System.out.println(sf1);
 			  System.out.println(sf2);
 			  System.out.println(sf3);
+			  
+			// Dùng để chuyển một chuỗi thành bytes của mảng
+			  byte[] barr = name.getBytes();
+			  for(int i=0;i<barr.length;i++) {
+				  System.out.print(barr[i]+" ");
+			  }
+			
+			// Dùng để xem chuỗi đó có trống không 
+			  System.out.println();
+			  System.out.println(name.isEmpty());
+			  String str = "";
+			  System.out.println(str.isEmpty());
+			  
+		   // Dùng để trả về độ dài chuỗi
+			  System.out.println(name);
+			  System.out.println(name.length());
+			  
+		  // Dùng để lấy chuỗi nhỏ bắt đầu từ đâu trên chuỗi lớn 
+			  System.out.println(name.substring(2, 11));
+			  System.out.println(name.substring(10));
+			 
+		  // Dùng để biến tất cả các datatype khác thành chuỗi
+			  int value = 100;
+			  System.out.println(String.valueOf(value)+10);
 		}
 }
 
