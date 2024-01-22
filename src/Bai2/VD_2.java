@@ -18,5 +18,6 @@ public class VD_2 {
 		System.out.print("Nhập họ và tên cách 2: ");
 		String hoTen2 = input2.nextLine();
 		System.out.print("Chào mừng bạn "+hoTen2+" đến với lớp lập trình Java!");
+		
 	}
 }
